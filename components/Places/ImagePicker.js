@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const PlaceItem = () => {
+const ImagePicker = () => {
   return (
     <View>
-      <Text>PlaceItem</Text>
+      <Text>ImagePicker</Text>
     </View>
   );
 };
 
-export default PlaceItem;
+export default ImagePicker;
 
 const styles = StyleSheet.create({});
