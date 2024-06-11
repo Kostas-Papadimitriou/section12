@@ -3,7 +3,7 @@ class Place {
     this.title = title;
     this.imageUri = imageUri;
     this.address = address;
-    this.location = location; //lat and long
+    this.location = { lat: location.lat, lng: location.lng }; //lat and long
     this.id = new Date().toString() + Math.random().toString();
   }
 }
