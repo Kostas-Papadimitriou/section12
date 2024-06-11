@@ -3,7 +3,7 @@ import { Ionicons } from "@expo/vector-icons";
 import React from "react";
 import { Colors } from "../../constants/colors";
 
-const OutlinedButton = ({ OonPress, icon, children }) => {
+const OutlinedButton = ({ onPress, icon, children }) => {
   return (
     <Pressable
       style={({ pressed }) => [pressed && styles.pressed, styles.button]}
